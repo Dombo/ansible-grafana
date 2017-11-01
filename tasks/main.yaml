@@ -38,6 +38,6 @@
 
 - name: Make sure grafana service is enabled and running
   service:
-    name: grafana
+    name: grafana-server
     enabled: yes
     state: running
