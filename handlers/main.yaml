@@ -2,5 +2,5 @@
 
 - name: Restart grafana
   service:
-    name: grafana-server
+    name: grafana
     state: restarted
